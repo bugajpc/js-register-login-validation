@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="register">
+            <label for="login">Login</label>
+            <input id="login" type="text"/>
+            <br>
+            <label for="password">Password</label>
+            <input id="password" type="password"/>
+            <br>
+            <label for="repeat-password">Repeat Password</label>
+            <input id="repeat-password" type="password"/>
+            <p id="captcha"></p>
+            <input id="user-captcha" type="text"/>
+            <br>
+            <button onclick="validate()">Register</button>
+        </div>
+        <div class="login-form">
+            <label for="user-login">Login</label>
+            <input id="user-login" type="text"/>
+            <br>
+            <label for="user-password">Password</label>
+            <input id="user-password" type="password"/>
+            <br>
+            <button onclick="signIn()">Sign in</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
